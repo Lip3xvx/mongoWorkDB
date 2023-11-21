@@ -1,0 +1,2 @@
+use("Pet_store")
+db.products.find()

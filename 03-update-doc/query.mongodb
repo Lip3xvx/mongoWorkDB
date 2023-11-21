@@ -1,0 +1,16 @@
+
+
+use("Pet_store")
+
+db.products.updateOne(
+  {id: 1},
+  {
+    $set: {
+      nombre: 'León Actualizado',
+      alimentacion: 'Carnívoro y Omnívoro',
+      habitat: 'Sabana y Selva',
+    }
+  }
+)
+
+db.Pets.find()

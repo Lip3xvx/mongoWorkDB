@@ -1,0 +1,168 @@
+
+
+use("Pet_store")
+
+db.products.drop() 
+
+db.products.insertMany([
+    {
+      _id: 1,
+      nombre: "León",
+      tipo: "Mamífero",
+      alimentacion: "Carnívoro",
+      habitat: "Sabana",
+      imagen: "leon.jpg"
+    },
+    {
+      _id: 2,
+      nombre: "Tigre",
+      tipo: "Mamífero",
+      alimentacion: "Carnívoro",
+      habitat: "Selva",
+      imagen: "tigre.jpg"
+    },
+    {
+      _id: 3,
+      nombre: "Elefante",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Pradera",
+      imagen: "elefante.jpg"
+    },
+    {
+      _id: 4,
+      nombre: "Cocodrilo",
+      tipo: "Reptil",
+      alimentacion: "Carnívoro",
+      habitat: "Río",
+      imagen: "cocodrilo.jpg"
+    },
+    {
+      _id: 5,
+      nombre: "Pingüino",
+      tipo: "Ave",
+      alimentacion: "Piscívoro",
+      habitat: "Antártida",
+      imagen: "pinguino.jpg"
+    },
+    {
+      _id: 6,
+      nombre: "Serpiente",
+      tipo: "Reptil",
+      alimentacion: "Carnívoro",
+      habitat: "Selva",
+      imagen: "serpiente.jpg"
+    },
+    {
+      _id: 7,
+      nombre: "Jirafa",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Sabana",
+      imagen: "jirafa.jpg"
+    },
+    {
+      _id: 8,
+      nombre: "Delfín",
+      tipo: "Mamífero",
+      alimentacion: "Piscívoro",
+      habitat: "Océano",
+      imagen: "delfin.jpg"
+    },
+    {
+      _id: 9,
+      nombre: "Águila",
+      tipo: "Ave",
+      alimentacion: "Carnívoro",
+      habitat: "Montañas",
+      imagen: "aguila.jpg"
+    },
+    {
+      _id: 10,
+      nombre: "Koala",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Eucaliptus",
+      imagen: "koala.jpg"
+    },
+    {
+      _id: 11,
+      nombre: "Canguro",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Pradera",
+      imagen: "canguro.jpg"
+    },
+    {
+      _id: 12,
+      nombre: "Tucán",
+      tipo: "Ave",
+      alimentacion: "Frugívoro",
+      habitat: "Selva",
+      imagen: "tucan.jpg"
+    },
+    {
+      _id: 13,
+      nombre: "Hipopótamo",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Río",
+      imagen: "hipopotamo.jpg"
+    },
+    {
+      _id: 14,
+      nombre: "Cebra",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Sabana",
+      imagen: "cebra.jpg"
+    },
+    {
+      _id: 15,
+      nombre: "Oso Polar",
+      tipo: "Mamífero",
+      alimentacion: "Carnívoro",
+      habitat: "Ártico",
+      imagen: "oso_polar.jpg"
+    },
+    {
+      _id: 16,
+      nombre: "Loro",
+      tipo: "Ave",
+      alimentacion: "Omnívoro",
+      habitat: "Selva",
+      imagen: "loro.jpg"
+    },
+    {
+      _id: 17,
+      nombre: "Suricata",
+      tipo: "Mamífero",
+      alimentacion: "Omnívoro",
+      habitat: "Desierto",
+      imagen: "suricata.jpg"
+    },
+    {
+      _id: 18,
+      nombre: "Camello",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Desierto",
+      imagen: "camello.jpg"
+    },
+    {
+      _id: 19,
+      nombre: "Orca",
+      tipo: "Mamífero",
+      alimentacion: "Piscívoro",
+      habitat: "Océano",
+      imagen: "orca.jpg"
+    },
+    {
+      _id: 20,
+      nombre: "Gorila",
+      tipo: "Mamífero",
+      alimentacion: "Herbívoro",
+      habitat: "Selva",
+      imagen: "gorila.jpg"
+    }
+  ])

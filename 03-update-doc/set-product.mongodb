@@ -1,0 +1,2 @@
+use("zoo_db")
+db.animales.find()
